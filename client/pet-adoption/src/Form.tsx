@@ -1,6 +1,6 @@
 function Form() {
     return <div>
-        <div >
+        <div className="form-div">
             <form action="" className="Form">
                 <div className="labels">
                     <label htmlFor="text" >Pet Name</label>
