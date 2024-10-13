@@ -1,3 +1,4 @@
+import { BrowserRouter, Link } from 'react-router-dom'
 import './App.css'
 function Header(){
 
@@ -6,7 +7,9 @@ function Header(){
 
       <div className="Header-container">
       <div className="Nav-bar">
-            <div>Home</div>
+        <BrowserRouter>
+            <Link to={"/form"} style={{"textDecoration":"none",}}><div>Home</div></Link>
+        </BrowserRouter>
             <div>Table</div>
             <div>Form</div>
         </div>
